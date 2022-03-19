@@ -15,7 +15,6 @@ const notion = new Client({
             add(course.text, course.prof, course.salle, new Date(course.start_date), new Date(course.end_date))
         })
     })
-
 })();
 
 async function add(course, teacher, room, startDate, endDate) {
